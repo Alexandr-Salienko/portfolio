@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta name="robots" content="noindex" />
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/slick.css">
+	<link rel="stylesheet" href="css/slick-theme.css">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="https://alexandr-salienko.github.io/css/menu.css">
+	<title>Hello, world!</title>
+</head>
+
+<body>
+	<header class="site-header">
+		<div class="header-top-section">
+			<div class="header-items-subsection">
+				<div class="container">
+					<div class="row header-items-row">
+						<div class="col-xl-2 col-lg-1 col-lg-2 col-md-3 header-logo-col">
+							<img class="logo" src="img/logo.svg" alt="">
+							<div class="header-basket-wrap d-md-none">
+								<span class="counter">9</span>
+								<img src="img/i/basket.svg" alt="">
+							</div>
+							<a class="d-flex d-md-none mobile-login-i" href="#" data-toggle="modal" data-target="#login-modal">
+								<img src="img/i/user.svg" alt="">
+							</a>
+							<a href="" class="mobile-phone-i d-md-none"><img src="img/i/call.svg" alt=""></a>
+							<button data-toggle="modal" data-target="#search-modal" class="mobile-search-toggler d-md-none"><img src="img/i/loupe-blue.svg" alt=""></button>
+							<button class="mobile-menu-toggler d-md-none" data-toggle="collapse" data-target="#header-main-navigation">
+								<span></span>
+								<span></span>
+								<span></span>
+							</button>
+						</div>
+						<div class="col-lg-3  col-md-6 header-city-col d-none d-md-flex">
+							<div class="header-city-wrap">
+								<div class="header-current-city">
+									<img src="img/i/location.svg" alt=""> <span>Ваш город:</span> <b>Ростов-на-Дону</b>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-3 col-lg-2 header-basket-col d-none d-md-flex">
+							<div class="header-basket-wrap">
+								<span class="counter">9</span>
+								<img src="img/i/basket.svg" alt=""><a href="">Корзина</a>
+							</div>
+						</div>
+						<div class="w-100 d-none d-md-flex d-lg-none"></div>
+						<div class="col-lg-3 col-md-6 header-login-col d-none d-md-flex">
+							<div class="header-login-wrap">
+								<img src="img/i/user.svg" alt=""> <a href="">Вход</a> | <a href="">Регистрация</a>
+							</div>
+						</div>
+						<div class="col-xl-2 d-none d-md-flex col-md-6 col-lg-3 header-phones-col">
+							<div class="header-phones-wrap">
+								<img src="img/i/call.svg" alt="">
+								<div class="header-phones">
+									<a href=""><span>8 800</span> 987 56 56</a>
+									<a href=""><span>8 800</span> 456 69 67</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="header-navigation-subsection">
+				<div class="container">
+					<nav class="header-main-navigation collapse d-md-block" id="header-main-navigation">
+						<div class="header-city-wrap">
+							<div class="header-current-city d-md-none">
+								<img src="img/i/location.svg" alt=""> <span>Ваш город:</span> <b>Ростов-на-Дону</b>
+							</div>
+						</div>
+						<ul>
+							<li><a href=""><img src="img/i/about.svg" alt="">О нас</a></li>
+							<li class="active"><a href=""><img src="img/i/tag-star.svg" alt="">Бренды</a></li>
+							<li><a href=""><img src="img/i/card.svg" alt="">Оплата</a></li>
+							<li><a href=""><img src="img/i/delivery.svg" alt="">Доставка</a></li>
+							<li><a href=""><img src="img/i/guarantee.svg" alt="">Гарантии</a></li>
+							<li><a href=""><img src="img/i/contact.svg" alt="">Контакты</a></li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</div>
+		<div class="header-bottom-section">
+			<div class="container">
+				<form class="header-search-form">
+					<input class="form-control header-serach-field" placeholder="Поиск товара по названию" type="search">
+					<button class="header-serach-submit-btn"><img src="img/i/loupe.svg" alt="">Поиск</button>
+				</form>
+				<div class="row d-none d-lg-flex header-cat-row">
+					<div class="col header-cat-col">
+						<a href="" class="header-cat-item">
+							<span class="header-cat-item-pic-wrap">
+								<img src="img/image-6.jpg" alt="">
+							</span>
+							<span class="header-cat-item-title">Сантехника</span>
+						</a>
+					</div>
+					<div class="col header-cat-col">
+						<a href="" class="header-cat-item">
+							<span class="header-cat-item-pic-wrap">
+								<img src="img/image-5.jpg" alt="">
+							</span>
+							<span class="header-cat-item-title">Мебель</span>
+						</a>
+					</div>
+					<div class="col header-cat-col">
+						<a href="" class="header-cat-item">
+							<span class="header-cat-item-pic-wrap">
+								<img src="img/image-4.jpg" alt="">
+							</span>
+							<span class="header-cat-item-title">Аксессуары</span>
+						</a>
+					</div>
+					<div class="col header-cat-col">
+						<a href="" class="header-cat-item">
+							<span class="header-cat-item-pic-wrap">
+								<img src="img/image-3.jpg" alt="">
+							</span>
+							<span class="header-cat-item-title">Кухня</span>
+						</a>
+					</div>
+					<div class="col header-cat-col">
+						<a href="" class="header-cat-item">
+							<span class="header-cat-item-pic-wrap">
+								<img src="img/image-2.jpg" alt="">
+							</span>
+							<span class="header-cat-item-title">Отопление</span>
+						</a>
+					</div>
+					<div class="col header-cat-col">
+						<a href="" class="header-cat-item">
+							<span class="header-cat-item-pic-wrap">
+								<img src="img/image-1.jpg" alt="">
+							</span>
+							<span class="header-cat-item-title">Клининг</span>
+						</a>
+					</div>
+					<div class="col header-cat-col">
+						<a href="" class="header-cat-item">
+							<span class="header-cat-item-pic-wrap">
+								<img src="img/image.jpg" alt="">
+							</span>
+							<span class="header-cat-item-title">Для людей с ограниченными способностями</span>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+	<section class="content-section ending-wide-section">
+		<div class="breadcrumbs d-none d-md-block">
+			<div class="container"><a href="">Главная</a><span class="sep"></span><span>Контакты</span></div>
+		</div>
+		<div class="container">
+			<div class="row product-full-row">
+				<div class="col-xl-5 col-lg-6 product-full-pic-col order-1 order-lg-0">
+					<img class="product-full-pic-label" src="img/i/hit.svg" alt="">
+					<div class="product-full-pic-wrap">
+						<div class="product-full-pic-wrap-item">
+							<img src="img/product1.jpg" alt="">
+						</div>
+						<div class="product-full-pic-wrap-item">
+							<img src="img/product2.jpg" alt="">
+						</div>
+						<div class="product-full-pic-wrap-item">
+							<img src="img/product3.jpg" alt="">
+						</div>
+						<div class="product-full-pic-wrap-item">
+							<img src="img/product4.jpg" alt="">
+						</div>
+						<div class="product-full-pic-wrap-item">
+							<img src="img/product1.jpg" alt="">
+						</div>
+						<div class="product-full-pic-wrap-item">
+							<img src="img/product2.jpg" alt="">
+						</div>
+						<div class="product-full-pic-wrap-item">
+							<img src="img/product3.jpg" alt="">
+						</div>
+						<div class="product-full-pic-wrap-item">
+							<img src="img/product4.jpg" alt="">
+						</div>
+					</div>
+					<div class="product-full-thumbs-wrap">
+						<div class="product-full-thumbs-wrap-item">
+							<div class="product-full-thumbs-box">
+								<img src="img/product1.jpg" alt="">
+							</div>
+						</div>
+						<div class="product-full-thumbs-wrap-item">
+							<div class="product-full-thumbs-box">
+								<img src="img/product2.jpg" alt="">
+							</div>
+						</div>
+						<div class="product-full-thumbs-wrap-item">
+							<div class="product-full-thumbs-box">
+								<img src="img/product3.jpg" alt="">
+							</div>
+						</div>
+						<div class="product-full-thumbs-wrap-item">
+							<div class="product-full-thumbs-box">
+								<img src="img/product4.jpg" alt="">
+							</div>
+						</div>
+						<div class="product-full-thumbs-wrap-item">
+							<div class="product-full-thumbs-box">
+								<img src="img/product1.jpg" alt="">
+							</div>
+						</div>
+						<div class="product-full-thumbs-wrap-item">
+							<div class="product-full-thumbs-box">
+								<img src="img/product2.jpg" alt="">
+							</div>
+						</div>
+						<div class="product-full-thumbs-wrap-item">
+							<div class="product-full-thumbs-box">
+								<img src="img/product3.jpg" alt="">
+							</div>
+						</div>
+						<div class="product-full-thumbs-wrap-item">
+							<div class="product-full-thumbs-box">
+								<img src="img/product4.jpg" alt="">
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-xl-6 col-lg-6 offset-xl-1 product-full-descr-col">
+					<h1>Акриловая ванна Cersanit Lorena 170 ультра белый</h1>
+					<div class="catalog-prev-item-rating rating-1">
+						<span><img src="img/i/rating-star.svg" alt=""></span>
+						<span><img src="img/i/rating-star.svg" alt=""></span>
+						<span><img src="img/i/rating-star.svg" alt=""></span>
+						<span><img src="img/i/rating-star.svg" alt=""></span>
+						<span><img src="img/i/rating-star.svg" alt=""></span>
+					</div>
+					<div class="product-full-descr-text">
+						Монтаж сантехники предполагает установку нового сантехнического оборудования — унитазов, смесителей, душевых кабин. Качественная установка сантехники должна производиться исключительно профессионалами, только так вы сможете себя от поломок оборудования, которые могут случиться при самостоятельном монтаже.
+					</div>
+					<div class="product-full-counter-price-wrap">
+						<div class="product-counter">
+							<button class="product-counter-changer">-</button>
+							<input class="product-counter-digit form-control" type="text" value="1">
+							<button class="product-counter-changer">+</button>
+						</div>
+						<div class="product-full-price">
+							140 990 ₽
+						</div>
+					</div>
+					<div class="product-full-buy-btns-wrap">
+						<a class="product-full-buy-btn" href=""><img src="img/i/basket-white.svg">Купить</a>
+						<a class="product-full-oneclick-btn" data-toggle="modal" data-target="#one-click-modal" href=""><img src="img/i/click.svg">Купить в 1 клик</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="gray-section product-full-descr-testims-tabs">
+			<div class="home-catalog-section-header">
+				<div class="container">
+					<ul class="nav home-cat-header-nav">
+						<li>
+							<a class="active" id="home-tab" data-toggle="tab" href="#product-description">Описание</a>
+						</li>
+						<li>
+							<a id="profile-tab" data-toggle="tab" href="#product-testims">Отзывы</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="container">
+				<div class="tab-content">
+					<div class="tab-pane fade show active" id="product-description">
+						<div class="product-full-tab-descr-text">
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ac tortor vitae purus faucibus ornare suspendisse sed nisi. A lacus vestibulum sed arcu non odio euismod lacinia at. Sapien et ligula ullamcorper malesuada proin. Sit amet consectetur adipiscing elit. Ultricies integer quis auctor elit. Quam nulla porttitor massa id neque aliquam vestibulum. Gravida cum sociis natoque penatibus. Mi tempus imperdiet nulla malesuada pellentesque elit. Tempor orci eu lobortis elementum nibh. Egestas erat imperdiet sed euismod nisi porta lorem mollis aliquam. Ut aliquam purus sit amet luctus venenatis.</p>
+							<p>Aliquam purus sit amet luctus venenatis. Eget dolor morbi non arcu risus quis varius quam quisque. Amet consectetur adipiscing elit pellentesque habitant morbi tristique senectus. Integer malesuada nunc vel risus. At augue eget arcu dictum varius. Tortor id aliquet lectus proin nibh. Amet nulla facilisi morbi tempus iaculis urna id volutpat lacus. Sit amet mauris commodo quis imperdiet. Ut faucibus pulvinar elementum integer. Id cursus metus aliquam eleifend mi in nulla. Tristique senectus et netus et malesuada fames ac turpis. Egestas fringilla phasellus faucibus scelerisque eleifend donec pretium vulputate. Dolor sed viverra ipsum nunc aliquet bibendum enim facilisis. Pulvinar etiam non quam lacus suspendisse faucibus interdum posuere lorem. Risus nullam eget felis eget nunc lobortis.</p>
+						</div>
+					</div>
+					<div class="tab-pane fade" id="product-testims">
+						<div class="product-full-testim-item">
+							<div class="product-full-testims-header">
+								<div class="product-full-testim-name">Иван</div>
+								<div class="product-full-testim-date">17.10.20</div>
+								<div class="product-full-testim-rating">
+									<div class="catalog-prev-item-rating rating-2">
+										<span><img src="img/i/rating-star.svg" alt=""></span>
+										<span><img src="img/i/rating-star.svg" alt=""></span>
+										<span><img src="img/i/rating-star.svg" alt=""></span>
+										<span><img src="img/i/rating-star.svg" alt=""></span>
+										<span><img src="img/i/rating-star.svg" alt=""></span>
+									</div>
+								</div>
+							</div>
+							<div class="product-full-testims-text">
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum natus harum omnis obcaecati totam sint in ipsum asperiores alias incidunt, dignissimos eveniet cupiditate ducimus ipsa esse doloremque laudantium vero earum.</p>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum natus harum omnis obcaecati totam sint in ipsum asperiores alias incidunt, dignissimos eveniet cupiditate ducimus ipsa esse doloremque laudantium vero earum.</p>
+							</div>
+						</div>
+						<div class="product-full-testim-item">
+							<div class="product-full-testims-header">
+								<div class="product-full-testim-name">Анастасия</div>
+								<div class="product-full-testim-date">22.11.20</div>
+								<div class="product-full-testim-rating">
+									<div class="catalog-prev-item-rating rating-4">
+										<span><img src="img/i/rating-star.svg" alt=""></span>
+										<span><img src="img/i/rating-star.svg" alt=""></span>
+										<span><img src="img/i/rating-star.svg" alt=""></span>
+										<span><img src="img/i/rating-star.svg" alt=""></span>
+										<span><img src="img/i/rating-star.svg" alt=""></span>
+									</div>
+								</div>
+							</div>
+							<div class="product-full-testims-text">
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum natus harum omnis obcaecati totam sint in ipsum asperiores alias incidunt, dignissimos eveniet cupiditate ducimus ipsa esse doloremque laudantium vero earum.</p>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum natus harum omnis obcaecati totam sint in ipsum asperiores alias incidunt, dignissimos eveniet cupiditate ducimus ipsa esse doloremque laudantium vero earum.</p>
+							</div>
+						</div>
+						<div class="product-full-testim-item">
+							<div class="product-full-testims-header">
+								<div class="product-full-testim-name">Иван</div>
+								<div class="product-full-testim-date">17.10.20</div>
+								<div class="product-full-testim-rating">
+									<div class="catalog-prev-item-rating rating-2">
+										<span><img src="img/i/rating-star.svg" alt=""></span>
+										<span><img src="img/i/rating-star.svg" alt=""></span>
+										<span><img src="img/i/rating-star.svg" alt=""></span>
+										<span><img src="img/i/rating-star.svg" alt=""></span>
+										<span><img src="img/i/rating-star.svg" alt=""></span>
+									</div>
+								</div>
+							</div>
+							<div class="product-full-testims-text">
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum natus harum omnis obcaecati totam sint in ipsum asperiores alias incidunt, dignissimos eveniet cupiditate ducimus ipsa esse doloremque laudantium vero earum.</p>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum natus harum omnis obcaecati totam sint in ipsum asperiores alias incidunt, dignissimos eveniet cupiditate ducimus ipsa esse doloremque laudantium vero earum.</p>
+							</div>
+						</div>
+						<form action="" class="product-full-testims-add-form standart-form">
+							<div class="product-full-testims-add-form-title">Оставьте свой отзыв о товаре</div>
+							<div class="form-group">
+								<input placeholder="Ваше имя" type="text" class="form-control form-field">
+							</div>
+							<div class="form-group">
+								<textarea class="form-control form-field" placeholder="Ваш отзыв" name=""></textarea>
+							</div>
+							<div class="product-full-testims-add-form-submit-wrap">
+								<button><img src="img/i/send.svg" alt="">Отправить</button>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<footer class="site-footer">
+		<nav class="footer-main-navigation d-none d-md-block">
+			<div class="container">
+				<ul>
+					<li><a href="">О нас</a></li>
+					<li><a href="">Бренды</a></li>
+					<li><a href="">Оплата</a></li>
+					<li><a href="">Доставка</a></li>
+					<li><a href="">Гарантии</a></li>
+					<li><a href="">Контакты</a></li>
+				</ul>
+			</div>
+		</nav>
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-3 col-md-4 col-sm-6 footer-list-col">
+					<div class="footer-list-title">Информация</div>
+					<ul>
+						<li><a href="">О нас</a></li>
+						<li><a href="">Политика конфиденциальности</a></li>
+						<li><a href="">Публичная оферта</a></li>
+					</ul>
+				</div>
+				<div class="col-lg-3 col-md-4 col-sm-6 footer-list-col">
+					<div class="footer-list-title">Покупателям</div>
+					<ul>
+						<li><a href="">Доставка</a></li>
+						<li><a href="">Оплата</a></li>
+						<li><a href="">Гарантии</a></li>
+						<li><a href="">Личный кабинет</a></li>
+					</ul>
+				</div>
+				<div class="col-lg-3 col-md-4 col-sm-6 footer-list-col">
+					<div class="footer-list-title">Контакты</div>
+					<div class="footer-contacts-wrap">
+						г. Москва, ул. Советская, д. 105 <br><span>(вход со стороны ул. Вознесенской)</span>
+					</div>
+					<div class="footer-phones-wrap">
+						<a href=""><span>8 800</span> 987 56 56</a>
+						<a href=""><span>8 800</span> 456 69 67</a>
+					</div>
+				</div>
+				<div class="col-xl-2 col-lg-3 col-sm-6 col-md-12 offset-xl-1 footer-soc-col">
+					<div class="footer-soc-title">Мы в социальных сетях</div>
+					<div class="footer-soc-box">
+						<a href=""><img src="img/i/vk.svg" alt=""></a>
+						<a href=""><img src="img/i/inst.svg" alt=""></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<div class="fixed-links">
+		<a href=""><img src="img/i/basket.svg" alt=""></a>
+		<a href=""><img src="img/i/heart.svg" alt=""></a>
+		<a href=""><img src="img/i/user-gray.svg" alt=""></a>
+	</div>
+	<!--One click buy Modal-->
+	<div class="modal fade one-click-modal standart-modal" id="one-click-modal" tabindex="-1" role="dialog">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<div class="modal-title">Купить в 1 клик</div>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="modal-body">
+					<form class="standart-form">
+						<div class="form-group">
+							<input placeholder="Ваше имя" type="text" class="form-control form-field">
+						</div>
+						<div class="form-group">
+							<input placeholder="Телефон" type="text" class="form-control form-field">
+						</div>
+						<div class="form-group">
+							<input placeholder="E-mail" type="text" class="form-control form-field">
+						</div>
+						<div class="form-group">
+							<textarea class="form-control form-field" placeholder="Комментарий к заказу" name=""></textarea>
+						</div>
+						<div class="one-click-form-submit-wrap">
+							<button><img src="img/i/send.svg" alt="">Отправить</button>
+							<a href="">Стоимость доставки</a>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--Login Modal-->
+	<div class="modal fade standart-modal" id="login-modal" tabindex="-1" role="dialog">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<div class="modal-title h5">Личный кабинет</div>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="modal-body">
+					<div class="login-modal-box">
+						<div class="login-modal-box-item">
+							<a href="">Войти</a>
+						</div>
+						<div class="login-modal-box-item">
+							<a href="">Зарегистрироваться</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--Search Modal-->
+	<div class="modal fade standart-modal" id="search-modal" tabindex="-1" role="dialog">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<div class="modal-title h5">Поиск по сайту</div>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="modal-body">
+					<form class="header-search-form">
+						<input class="form-control header-serach-field" placeholder="Поиск товара по названию" type="search">
+						<button class="header-serach-submit-btn"><img src="img/i/loupe.svg" alt="">Поиск</button>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+    <!--Portfolio Navigation starts-->
+    <div class="portfolio-projects-navigation-wrap portfolio-projects-navigation-wrap_opened">
+        <button class="portfolio-projects-navigation-wrap__toggler">
+            <img class="portfolio-projects-navigation-wrap__toggler-i" src="https://alexandr-salienko.github.io/img/i/cross.svg" alt="">
+        </button>
+        <div class="portfolio-projects-navigation-wrap__content-wrap">
+            <div class="portfolio-projects-navigation-wrap__content">
+                <div class="portfolio-projects-navigation-wrap__home-link">
+                    <img class="portfolio-projects-navigation-wrap__home-i" src="https://alexandr-salienko.github.io/img/i/back.svg" alt=""><a href="https://alexandr-salienko.github.io/">Назад в портфолио</a>
+                </div>
+                <div class="portfolio-projects-navigation-wrap__list-title">Другие страницы проекта</div>
+                <ul class="portfolio-projects-navigation-wrap__list">
+                    <li><a href="index.html">Главная</a></li>
+                    <li><a href="catalog.html">Каталог</a></li>
+                    <li><a href="product.html">Карточка товара</a></li>
+                    <li><a href="basket.html">Корзина</a></li>
+                    <li><a href="favorites.html">Избранное</a></li>
+                    <li><a href="contacts.html">Контакты</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!--Portfolio Navigation ends-->
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/slick.min.js"></script>
+	<script src="https://alexandr-salienko.github.io/js/menu.js"></script>
+	<script>
+	$(document).ready(
+		function() {
+			$('.product-full-pic-wrap').slick({
+				slidesToShow: 1,
+				slidesToScroll: 1,
+				arrows: false,
+				fade: true,
+				adaptiveHeight: true,
+				asNavFor: '.product-full-thumbs-wrap'
+			});
+			$('.product-full-thumbs-wrap').slick({
+				slidesToShow: 4,
+				slidesToScroll: 1,
+				asNavFor: '.product-full-pic-wrap',
+				responsive: [{
+						breakpoint: 992,
+						settings: {
+							slidesToShow: 6
+						}
+					},
+					{
+						breakpoint: 768,
+						settings: {
+							slidesToShow: 4
+						}
+					},
+					{
+						breakpoint: 576,
+						settings: {
+							arrows: false
+						}
+					}
+				]
+
+			});
+		}
+	);
+	</script>
+</body>
+
+</html>

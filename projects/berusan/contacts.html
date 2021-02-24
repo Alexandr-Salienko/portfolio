@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta name="robots" content="noindex" />
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/slick.css">
+	<link rel="stylesheet" href="css/slick-theme.css">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="https://alexandr-salienko.github.io/css/menu.css">
+	<title>Hello, world!</title>
+</head>
+
+<body>
+	<header class="site-header">
+		<div class="header-top-section">
+			<div class="header-items-subsection">
+				<div class="container">
+					<div class="row header-items-row">
+						<div class="col-xl-2 col-lg-1 col-lg-2 col-md-3 header-logo-col">
+							<img class="logo" src="img/logo.svg" alt="">
+							<div class="header-basket-wrap d-md-none">
+								<span class="counter">9</span>
+								<img src="img/i/basket.svg" alt="">
+							</div>
+							<a class="d-flex d-md-none mobile-login-i" href="#" data-toggle="modal" data-target="#login-modal">
+								<img src="img/i/user.svg" alt="">
+							</a>
+							<a href="" class="mobile-phone-i d-md-none"><img src="img/i/call.svg" alt=""></a>
+							<button data-toggle="modal" data-target="#search-modal" class="mobile-search-toggler d-md-none"><img src="img/i/loupe-blue.svg" alt=""></button>
+							<button class="mobile-menu-toggler d-md-none" data-toggle="collapse" data-target="#header-main-navigation">
+								<span></span>
+								<span></span>
+								<span></span>
+							</button>
+						</div>
+						<div class="col-lg-3  col-md-6 header-city-col d-none d-md-flex">
+							<div class="header-city-wrap">
+								<div class="header-current-city">
+									<img src="img/i/location.svg" alt=""> <span>Ваш город:</span> <b>Ростов-на-Дону</b>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-3 col-lg-2 header-basket-col d-none d-md-flex">
+							<div class="header-basket-wrap">
+								<span class="counter">9</span>
+								<img src="img/i/basket.svg" alt=""><a href="">Корзина</a>
+							</div>
+						</div>
+						<div class="w-100 d-none d-md-flex d-lg-none"></div>
+						<div class="col-lg-3 col-md-6 header-login-col d-none d-md-flex">
+							<div class="header-login-wrap">
+								<img src="img/i/user.svg" alt=""> <a href="">Вход</a> | <a href="">Регистрация</a>
+							</div>
+						</div>
+						<div class="col-xl-2 d-none d-md-flex col-md-6 col-lg-3 header-phones-col">
+							<div class="header-phones-wrap">
+								<img src="img/i/call.svg" alt="">
+								<div class="header-phones">
+									<a href=""><span>8 800</span> 987 56 56</a>
+									<a href=""><span>8 800</span> 456 69 67</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="header-navigation-subsection">
+				<div class="container">
+					<nav class="header-main-navigation collapse d-md-block" id="header-main-navigation">
+						<div class="header-city-wrap">
+							<div class="header-current-city d-md-none">
+								<img src="img/i/location.svg" alt=""> <span>Ваш город:</span> <b>Ростов-на-Дону</b>
+							</div>
+						</div>
+						<ul>
+							<li><a href=""><img src="img/i/about.svg" alt="">О нас</a></li>
+							<li class="active"><a href=""><img src="img/i/tag-star.svg" alt="">Бренды</a></li>
+							<li><a href=""><img src="img/i/card.svg" alt="">Оплата</a></li>
+							<li><a href=""><img src="img/i/delivery.svg" alt="">Доставка</a></li>
+							<li><a href=""><img src="img/i/guarantee.svg" alt="">Гарантии</a></li>
+							<li><a href=""><img src="img/i/contact.svg" alt="">Контакты</a></li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</div>
+		<div class="header-bottom-section">
+			<div class="container">
+				<form class="header-search-form">
+					<input class="form-control header-serach-field" placeholder="Поиск товара по названию" type="search">
+					<button class="header-serach-submit-btn"><img src="img/i/loupe.svg" alt="">Поиск</button>
+				</form>
+				<div class="row d-none d-lg-flex header-cat-row">
+					<div class="col header-cat-col">
+						<a href="" class="header-cat-item">
+							<span class="header-cat-item-pic-wrap">
+								<img src="img/image-6.jpg" alt="">
+							</span>
+							<span class="header-cat-item-title">Сантехника</span>
+						</a>
+					</div>
+					<div class="col header-cat-col">
+						<a href="" class="header-cat-item">
+							<span class="header-cat-item-pic-wrap">
+								<img src="img/image-5.jpg" alt="">
+							</span>
+							<span class="header-cat-item-title">Мебель</span>
+						</a>
+					</div>
+					<div class="col header-cat-col">
+						<a href="" class="header-cat-item">
+							<span class="header-cat-item-pic-wrap">
+								<img src="img/image-4.jpg" alt="">
+							</span>
+							<span class="header-cat-item-title">Аксессуары</span>
+						</a>
+					</div>
+					<div class="col header-cat-col">
+						<a href="" class="header-cat-item">
+							<span class="header-cat-item-pic-wrap">
+								<img src="img/image-3.jpg" alt="">
+							</span>
+							<span class="header-cat-item-title">Кухня</span>
+						</a>
+					</div>
+					<div class="col header-cat-col">
+						<a href="" class="header-cat-item">
+							<span class="header-cat-item-pic-wrap">
+								<img src="img/image-2.jpg" alt="">
+							</span>
+							<span class="header-cat-item-title">Отопление</span>
+						</a>
+					</div>
+					<div class="col header-cat-col">
+						<a href="" class="header-cat-item">
+							<span class="header-cat-item-pic-wrap">
+								<img src="img/image-1.jpg" alt="">
+							</span>
+							<span class="header-cat-item-title">Клининг</span>
+						</a>
+					</div>
+					<div class="col header-cat-col">
+						<a href="" class="header-cat-item">
+							<span class="header-cat-item-pic-wrap">
+								<img src="img/image.jpg" alt="">
+							</span>
+							<span class="header-cat-item-title">Для людей с ограниченными способностями</span>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+	<section class="content-section ending-wide-section">
+		<div class="breadcrumbs d-none d-md-block">
+			<div class="container"><a href="">Главная</a><span class="sep"></span><span>Контакты</span></div>
+		</div>
+		<div class="container">
+			<h1>Наши контакты</h1>
+			<div class="row contacts-page-row">
+				<div class="col-lg-6 contacts-page-text-col">
+					<div class="contacts-page-jur-title">Юридический адрес</div>
+					<div class="contacts-page-jur">
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+					</div>
+					<div class="contacts-page-items-wrap">
+						<div class="contacts-page-item">
+							<img src="img/i/location-blue.svg" alt="">
+							<div>г. Москва, Одинцовский р-н, Новоивановское пгт, ул. Луговая, д. 1, 1 этаж</div>
+						</div>
+						<div class="contacts-page-item">
+							<img src="img/i/call.svg" alt="">
+							<div>
+								<b>Многоканальный телефон:</b><br>
+								<a class="contacts-page-phone" href="">+7 737 322 32 54</a>
+							</div>
+						</div>
+					</div>
+					<div class="contacts-page-delivery-link">
+						<img src="img/i/delivery truck-blue.svg" alt="">
+						<a href="">Подробнее о доставке</a>
+					</div>
+				</div>
+				<div class="col-xl-5 offset-xl-1 col-lg-6 contacts-page-form-col">
+					<form action="" class="contacts-page-feebdack-form standart-form">
+						<div class="contacts-page-feebdack-form-title">Написать нам:</div>
+						<div class="form-group">
+							<input placeholder="Ваше имя" type="text" class="form-control form-field">
+						</div>
+						<div class="form-group">
+							<input placeholder="E-mail" type="text" class="form-control form-field">
+						</div>
+						<div class="form-group">
+							<textarea class="form-control form-field" placeholder="Задайте вопрос" name=""></textarea>
+						</div>
+						<div class="contacts-page-feebdack-form-submit-wrap">
+							<button><img src="img/i/send.svg" alt="">Отправить сообщение</button>
+						</div>
+					</form>
+				</div>
+			</div>
+			<div class="contacts-page-map-title">Как добраться до нас?</div>
+		</div>
+		<div class="contacts-page-map-wrap">
+			<script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A82dad35828989b986b5b108969c983e058d8d70d2438a5e1c3919bd6f6b2e5c1&amp;width=100%25&amp;height=600&amp;lang=ru_RU&amp;scroll=true"></script>
+		</div>
+	</section>
+	<footer class="site-footer">
+		<nav class="footer-main-navigation d-none d-md-block">
+			<div class="container">
+				<ul>
+					<li><a href="">О нас</a></li>
+					<li><a href="">Бренды</a></li>
+					<li><a href="">Оплата</a></li>
+					<li><a href="">Доставка</a></li>
+					<li><a href="">Гарантии</a></li>
+					<li><a href="">Контакты</a></li>
+				</ul>
+			</div>
+		</nav>
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-3 col-md-4 col-sm-6 footer-list-col">
+					<div class="footer-list-title">Информация</div>
+					<ul>
+						<li><a href="">О нас</a></li>
+						<li><a href="">Политика конфиденциальности</a></li>
+						<li><a href="">Публичная оферта</a></li>
+					</ul>
+				</div>
+				<div class="col-lg-3 col-md-4 col-sm-6 footer-list-col">
+					<div class="footer-list-title">Покупателям</div>
+					<ul>
+						<li><a href="">Доставка</a></li>
+						<li><a href="">Оплата</a></li>
+						<li><a href="">Гарантии</a></li>
+						<li><a href="">Личный кабинет</a></li>
+					</ul>
+				</div>
+				<div class="col-lg-3 col-md-4 col-sm-6 footer-list-col">
+					<div class="footer-list-title">Контакты</div>
+					<div class="footer-contacts-wrap">
+						г. Москва, ул. Советская, д. 105 <br><span>(вход со стороны ул. Вознесенской)</span>
+					</div>
+					<div class="footer-phones-wrap">
+						<a href=""><span>8 800</span> 987 56 56</a>
+						<a href=""><span>8 800</span> 456 69 67</a>
+					</div>
+				</div>
+				<div class="col-xl-2 col-lg-3 col-sm-6 col-md-12 offset-xl-1 footer-soc-col">
+					<div class="footer-soc-title">Мы в социальных сетях</div>
+					<div class="footer-soc-box">
+						<a href=""><img src="img/i/vk.svg" alt=""></a>
+						<a href=""><img src="img/i/inst.svg" alt=""></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<div class="fixed-links">
+		<a href=""><img src="img/i/basket.svg" alt=""></a>
+		<a href=""><img src="img/i/heart.svg" alt=""></a>
+		<a href=""><img src="img/i/user-gray.svg" alt=""></a>
+	</div>
+	<!--Login Modal-->
+	<div class="modal fade standart-modal" id="login-modal" tabindex="-1" role="dialog">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<div class="modal-title h5">Личный кабинет</div>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="modal-body">
+					<div class="login-modal-box">
+						<div class="login-modal-box-item">
+							<a href="">Войти</a>
+						</div>
+						<div class="login-modal-box-item">
+							<a href="">Зарегистрироваться</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--Search Modal-->
+	<div class="modal fade standart-modal" id="search-modal" tabindex="-1" role="dialog">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<div class="modal-title h5">Поиск по сайту</div>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="modal-body">
+					<form class="header-search-form">
+						<input class="form-control header-serach-field" placeholder="Поиск товара по названию" type="search">
+						<button class="header-serach-submit-btn"><img src="img/i/loupe.svg" alt="">Поиск</button>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+    <!--Portfolio Navigation starts-->
+    <div class="portfolio-projects-navigation-wrap portfolio-projects-navigation-wrap_opened">
+        <button class="portfolio-projects-navigation-wrap__toggler">
+            <img class="portfolio-projects-navigation-wrap__toggler-i" src="https://alexandr-salienko.github.io/img/i/cross.svg" alt="">
+        </button>
+        <div class="portfolio-projects-navigation-wrap__content-wrap">
+            <div class="portfolio-projects-navigation-wrap__content">
+                <div class="portfolio-projects-navigation-wrap__home-link">
+                    <img class="portfolio-projects-navigation-wrap__home-i" src="https://alexandr-salienko.github.io/img/i/back.svg" alt=""><a href="https://alexandr-salienko.github.io/">Назад в портфолио</a>
+                </div>
+                <div class="portfolio-projects-navigation-wrap__list-title">Другие страницы проекта</div>
+                <ul class="portfolio-projects-navigation-wrap__list">
+                    <li><a href="index.html">Главная</a></li>
+                    <li><a href="catalog.html">Каталог</a></li>
+                    <li><a href="product.html">Карточка товара</a></li>
+                    <li><a href="basket.html">Корзина</a></li>
+                    <li><a href="favorites.html">Избранное</a></li>
+                    <li><a href="contacts.html">Контакты</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!--Portfolio Navigation ends-->
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/slick.min.js"></script>
+	<script src="https://alexandr-salienko.github.io/js/menu.js"></script>
+</body>
+
+</html>
