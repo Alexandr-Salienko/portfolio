@@ -1,0 +1,19 @@
+<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect x="1.5" y="13.5" width="25" height="33" rx="1.5" stroke="white" stroke-width="3"/>
+<path d="M10.1063 2.58792C10.2903 1.94397 10.8789 1.5 11.5486 1.5H16.4514C17.1211 1.5 17.7097 1.94397 17.8937 2.58792L21.0114 13.5H6.9886L10.1063 2.58792Z" stroke="white" stroke-width="3"/>
+<path d="M6.5 26C6.5 21.8579 9.85786 18.5 14 18.5C18.1421 18.5 21.5 21.8579 21.5 26V31.7826C21.5 32.1788 21.1788 32.5 20.7826 32.5H7.21739C6.82119 32.5 6.5 32.1788 6.5 31.7826V26Z" stroke="white" stroke-width="3"/>
+<path d="M33.5 40.5C33.5 38.8431 34.8431 37.5 36.5 37.5C38.1569 37.5 39.5 38.8431 39.5 40.5V41.5H33.5V40.5Z" fill="white" stroke="white" stroke-width="3"/>
+<path d="M6.5 39C6.5 38.1716 7.17157 37.5 8 37.5H20C20.8284 37.5 21.5 38.1716 21.5 39V45C21.5 45.8284 20.8284 46.5 20 46.5H8C7.17157 46.5 6.5 45.8284 6.5 45V39Z" stroke="white" stroke-width="3"/>
+<path d="M11.5944 32C9.44187 28 13.7467 30 14.8229 25C18.5896 27.5 18.5896 30.5 16.9753 32" stroke="white" stroke-width="3"/>
+<line x1="16.5" y1="9.5" x2="19.5" y2="9.5" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="13.5" cy="43.5" r="1.5" fill="white"/>
+<circle cx="9.5" cy="43.5" r="1.5" fill="white"/>
+<circle cx="17.5" cy="43.5" r="1.5" fill="white"/>
+<circle cx="15.5" cy="40.5" r="1.5" fill="white"/>
+<circle cx="11.5" cy="40.5" r="1.5" fill="white"/>
+<path d="M32.5 19.5H41.5V27C41.5 27.8284 40.8284 28.5 40 28.5H34C33.1716 28.5 32.5 27.8284 32.5 27V19.5Z" stroke="white" stroke-width="3"/>
+<line x1="42.5" y1="22.5" x2="43.5" y2="22.5" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="36.5" y1="17.5" x2="37.5" y2="17.5" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="30.5" y1="22.5" x2="31.5" y2="22.5" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M26.5 32.5H45C45.8284 32.5 46.5 33.1716 46.5 34V45C46.5 45.8284 45.8284 46.5 45 46.5H26.5V32.5Z" stroke="white" stroke-width="3"/>
+</svg>
